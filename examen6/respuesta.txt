@@ -1,0 +1,24 @@
+¿Cuáles de los siguientes son ciertos con respecto a los pseudoselectores ::antes y
+::después?
+1.No se aplica a elementos de cierre automático como <img/>, <hr/> y <input/>
+2.No puede especificar estilos en línea para pseudoelementos.
+3.No puede crear pseudo elementos en CSS en línea
+4.Ninguna de las anteriores
+
+
+1 es falas ya que <img/> <input/> necesitan cierre automatico y hr no necesita
+2 es falsa especificar estilos en línea para pseudoelementos ::after
+::before
+::first-letter
+::first-line
+::selection
+::backdrop
+::placeholder Experimental
+::marker Experimental
+::spelling-error Experimental
+::grammar-error (en-US)
+3 es falsa porque si se puede crear pseudo elementos en CSS en línea
+p:first-letter { text-transform: uppercase; }
+
+
+por lo tamto la respuesta es ninguna de las anteriores
